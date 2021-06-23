@@ -1,0 +1,71 @@
+{
+  "nav": {
+    "logo": "Mi curriculum",
+    "about": "Acerca de mí",
+    "projects": "Mis projectos",
+    "contact": "Contáctame",
+    "translate": "Traducir"
+  },
+  "cover": {
+    "title": "<HolaMundo/>",
+    "subtitle1": "Mi nombre es DeveloperName.",
+    "subtitle2": "Aptitudes | Cualidades | Capacidades | Logros"
+  },
+  "about": {
+    "title": "Titulo Acerca de mí",
+    "aboutInfo": "Descripción",
+    "skills": "Habilidades"
+  },
+  "slider": {
+    "title": "Mis proyectos",
+    "card":{
+      "seeproject": "Ver proyecto"
+    },
+    "barberapp": {
+      "nombre": "Proyecto 1",
+      "web": "www.project1.com.ar",
+      "description": "Descripción del projecto 1 - Tecnologias utilizadas - Alcance y objetivos."
+    },
+    "mernsat": {
+      "nombre": "Proyecto 2",
+      "web": "www.project2.com.ar",
+      "description": "Descripción del projecto 2 - Tecnologias utilizadas - Alcance y objetivos."
+    },
+    "appunca": {
+      "nombre": "Proyecto 3",
+      "web": "www.project3.com.ar",
+      "description": "Descripción del projecto 3 - Tecnologias utilizadas - Alcance y objetivos."
+    },
+    "tiendaonline": {
+      "nombre": "Proyecto 4",
+      "web": "www.project4.com.ar",
+      "description": "Descripción del projecto 4 - Tecnologias utilizadas - Alcance y objetivos."
+    }
+  },
+  "info": {
+    "title": "Frase InfoSection"
+  },
+  "footer": {
+    "name": "Developer Name",
+    "location": "Localización",
+    "contactme": "Contáctame",
+    "inviteme": "☕ Invítame un Cafecito",
+    "workexperience": "Titulo Experiencia Laboral",
+    "work1":{
+      "title":"Trabajo 1",
+      "description": "Descripción del trabajo 1"
+    },
+    "work2":{
+      "title":"Trabajo 2",
+      "description": "Descripción del trabajo 2"
+    },
+    "work3":{
+      "title":"Trabajo 3",
+      "description": "Descripción del trabajo 3"
+    },
+    "work4":{
+      "title":"Trabajo 4",
+      "description": "Descripción del trabajo 4"
+    }
+  }
+}

@@ -1,0 +1,186 @@
+/* Container */
+.about-container {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background-about);
+    color: var(--textsecondary-color);
+    height: 93vh;
+    min-height: 93vh;
+}
+
+/* About Description*/
+.about-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 65%;
+    padding: 0 100px 0 100px;
+}
+
+.about-description > h3 {
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+
+.about-description > p {
+    line-height: 1.8;
+    font-size: 23px;
+}
+
+/* About Image*/
+.about-img {
+    width: 35%;
+    height: 100%; 
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    overflow: hidden;   
+}
+
+.img {
+    border-radius: 20px;
+}
+
+.about-info {
+    display: flex;
+    flex-direction: row;
+    height: 60vh;
+    padding: 50px 50px 50px 0;
+}
+
+.about-technologies {
+    display: flex;
+    height: 40vh;
+    width: 100vw;
+}
+
+.img-technologies {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 0.5px black;
+}
+
+.technologies-item {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+.about-technologies-title > h3 {
+    font-size: 35px;
+    margin-bottom: 10px;
+
+}
+
+.about-technologies {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.about-technologies-items {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.skill {
+    margin-top: 5px;
+}
+
+.skillname {
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 960px) {
+    .about-container {
+        display: flex;
+        height: max-content;
+    }
+    .about-info {
+        flex-direction: column;
+        padding: 0;
+        height: auto;
+    }
+
+    .about-description {
+        width: 90%;
+        margin: 0 auto;
+        padding: 40px 20px 50px 20px;
+    }
+
+    .about-description > h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .about-description > p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+
+    .about-img {
+        width: 100%;
+    }
+
+    .about-img > img {
+        width: 90%;
+    }
+
+    .technologies-item {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        justify-content: center;
+        text-align: center;        
+    }
+    
+    .technologies-item > img{ 
+        width: 110px;
+        height: 110px;
+        border-radius: 20px;
+        box-shadow: 1px 1px 1px 0.5px black;
+        object-fit: cover;    
+    }
+    
+    .about-technologies-title > h3 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    
+    }
+    
+    .about-technologies {
+        height: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .about-technologies-items {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .skill {
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+    
+    .skillname {
+        margin-top: 5px;
+    }
+}

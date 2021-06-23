@@ -1,0 +1,73 @@
+{
+  "nav": {
+    "logo": "My portfolio",
+    "about": "About me",
+    "projects": "My projects",
+    "contact": "Contact me",
+    "translate": "Translate"
+  },
+  "cover": {
+    "title": "<HelloWorld/>",
+    "subtitle1": "My name is Mauro Daniel Machado.",
+    "subtitle2": "Developer | Designer | Content Creator | Engenieer"
+  },
+  "about": {
+    "title": "Let me tell you something about me",
+    "aboutInfo": "I am Mauro Daniel Machado, i have 25 years old and I am an advanced student of the Computer Engineering career at the National University of Catamarca. I like to program, both on the back-end and on the front-end. My dream is be a Software Architect.",
+    "skills": "Skills"
+  },
+  "slider": {
+    "title": "My projects",
+    "card":{
+      "seeproject": "See project"
+    },
+    "barberapp": {
+      "nombre": "BarberApp",
+      "web": "www.barberapp.netlify.app",
+      "description": "Aplication for barbershop management - BackEnd using NodeJS y Express - FrontEnd using ReactNative"
+    },
+    "mernsat": {
+      "nombre": "Technical Assistance Request",
+      "web": "www.mernsat.netlify.app",
+      "description": "Time real aplication - BackEnd using NodeJS y Express implementing sockets - FrontEnd using ReactJS"
+    },
+    "appunca": {
+      "nombre": "Discover the UNCa",
+      "web": "www.descubriendolaunca.netlify.app",
+      "description": "Application to show the academic offer of the National University of Catamarca and its benefits"
+    },
+    "tiendaonline": {
+      "nombre": "Project 4",
+      "web": "www.project4.com.ar",
+      "description": "Description project 4 - Technologies used - Scope and objectives."
+    }
+  },
+  "info": {
+    "title": "Text InfoSection"
+  },
+  "footer": {
+    "name": "Developer Name",
+    "location": "Location",
+    "contactme": "Contact me",
+    "inviteme": "☕ Invite me a Coffee",
+    "workexperience": "Title Work experience",
+    "work1":{
+      "title": "Work 1",
+      "description": "Description work 1"
+    },
+    "work2":{
+      "title": "Work 2",
+      "description": "Description work 2"
+    },
+    "work3":{
+      "title": "Work 3",
+      "description": "Description work 3"
+    },
+    "work4":{
+      "title": "Work 4",
+      "description": "Description work 4"
+    }
+  }
+}
+
+

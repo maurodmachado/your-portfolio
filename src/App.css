@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+:root {
+  /* Colors */
+  --black-color: black;
+  --white-color: white;
+  --textprimary-color: white;
+  --textsecondary-color: black;
+  --primary-color: #2b3b96;
+  --secondary-color: #39688f;
+  
+  /* Background Colors */
+  --background-info: white;
+  --background-about: white;
+  --background-myprojects: #152541;
+
+  /* Card Background colors */
+  --card1-color: linear-gradient(209.21deg, rgb(54, 192, 100) 13.57%, rgb(29, 145, 252) 98.38%);
+  --card2-color: linear-gradient(209.21deg, rgb(150, 180, 40) 13.57%, rgb(154, 86, 69) 98.38%);
+  --card3-color: linear-gradient(209.21deg, rgb(119, 31, 65) 13.57%, rgb(243, 91, 160) 98.38%);
+  --card4-color: linear-gradient(209.21deg, rgb(22, 155, 173) 13.57%, rgb(0, 54, 135) 98.38%);
+  --card5-color: linear-gradient(209.21deg, rgb(192, 137, 54) 13.57%, rgb(252, 248, 29) 98.38%);
+
+  /* Card Button Color */
+  --cardbutton-color: linear-gradient(rgb(255, 255, 255) 0%, rgb(217, 223, 255) 100%);
+}
