@@ -1,17 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-const TecnologieItem = ({ tecnologie }) => {
+const TechnologieItem = ({ technologie }) => {
+  
+  const [overskill, setOverskill] = useState(false);
+
   return (
-    <div className='technologies-item'>
+    <div className={overskill ? 'technologies-item over' : 'technologies-item'} 
+    onMouseOver={() => setOverskill(true)}
+    onMouseLeave={() => setOverskill(false)}>
       <img
         className='img-technologies'
-        src={tecnologie.img}
-        alt={tecnologie.info}
+        src={technologie.img}
+        alt={technologie.info}
       />
-      <label className='skillname'>{tecnologie.name}</label>
-      <label className='skill'>{tecnologie.skill}</label>
+      <label className='skillname'>{technologie.name}</label>
+      <label className='skill'>{technologie.skill}</label>
     </div>
   );
 };
 
-export default TecnologieItem;
+export default TechnologieItem;

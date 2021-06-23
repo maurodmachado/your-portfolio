@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import ExperienceItem from './ExperienceItem';
 
 const FooterExperience = ({ translate }) => {
+  const [animate, setAnimate] = useState(false);
   const [popoverOpenBanco, setPopoverOpenBanco] = useState(false);
   const [popoverOpenPoderJudicial, setPopoverOpenPoderJudicial] = useState(false);
   const [popoverOpenPackGo, setPopoverOpenPackGo] = useState(false);
@@ -53,11 +54,11 @@ const FooterExperience = ({ translate }) => {
 
   return (
     <div className='footer-row'>
-      <div className='footer-info'>
-        <h3>{translate('footer.workexperience')}</h3>
-      </div>
-      <div className='footer-experience'>
-        <ul className={(popoverOpenBanco || popoverOpenNaranja || popoverOpenPoderJudicial || popoverOpenPackGo) ? 'timeline opacity' : 'timeline'}>
+    <div className='footer-info' onMouseOver={() =>setAnimate(true)} onMouseLeave={()=>setAnimate(false)}>
+      <h3 className={animate ? "animate__animated animate__bounce" : ""}>{translate('footer.workexperience')}</h3>
+    </div>
+    <div className='footer-experience'>
+      <ul className='timeline'>
           {experienceItems.lenght !== 0 ? (
             experienceItems.map((experienceItem) => (
               <ExperienceItem

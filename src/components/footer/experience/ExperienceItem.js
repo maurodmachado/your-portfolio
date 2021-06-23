@@ -8,6 +8,7 @@ const ExperienceItem = ({year, target, tooglea, popHeader, popBody, popOver, ind
                 href='#'
                 id={target}
                 data-text={popHeader}
+                className={popOver ? "opacity" : ""}
               >
                 <Popover
                   placement={index % 2 !== 0 ? (window.innerWidth >= 1423 ? 'Bottom' : 'left') : (window.innerHeight >= 960 ? 'top' : 'right')}

@@ -10,6 +10,11 @@
     
 }
 
+.overcard {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
 .card-img {
     height: 45vh;
     object-fit: contain;    

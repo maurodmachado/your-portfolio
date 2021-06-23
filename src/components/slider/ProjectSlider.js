@@ -5,7 +5,7 @@ import imagenProject2 from '../../media/projects/project2.png';
 import imagenProject3 from '../../media/projects/project3.png';
 import imagenProject4 from '../../media/projects/project4.png';
 import './Slider.css'
-import { Card, CardImg, CardText, CardTitle, CardSubtitle, Button } from 'reactstrap';
+import CardSlider from './CardSlider.js';
 
 const responsive = {
   superLargeDesktop: {
@@ -112,25 +112,7 @@ const ProjectSlider = ({translate}, props) => {
     >
       {projects.length !== 0 ? (
         projects.map((project,index) => 
-          <Card className='card-container'>
-              <div className={`card-item card-${index+1}`} >
-            <CardImg
-            className='card-img'
-              top
-              width='100%'
-              src={project.img}
-              alt={project.nombre}
-            />
-              <CardTitle className='card-title'>{project.nombre}</CardTitle>
-              <CardSubtitle className='card-subtitle'>
-              {project.web}
-              </CardSubtitle>
-              <CardText  className='card-description' >
-              {project.description}
-              </CardText>
-              <Button className='card-button' ><label>{translate('slider.card.seeproject')}</label></Button> 
-            </div>
-          </Card>
+        <CardSlider project={project} index={index} key={index} translate={translate}/>
         )
       ) : (
         <></>

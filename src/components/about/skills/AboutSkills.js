@@ -10,7 +10,7 @@ const AboutSkills = ({translate}) => {
       </div>
       <div className='about-technologies-items'>
         {technologies.length !== 0 ? (
-          technologies.map((tec) => <TechnologieItem tecnologie={tec} />)
+          technologies.map((tec) => <TechnologieItem technologie={tec} />)
         ) : (
           <></>
         )}
